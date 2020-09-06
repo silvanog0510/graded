@@ -1,4 +1,3 @@
-
 dirnumb=$(ls | wc -l)
 
 for r in response
