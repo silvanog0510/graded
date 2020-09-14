@@ -1,4 +1,8 @@
-dirnumb=$(ls | wc -l)
+function countdir {
+	ls | wc -l
+}
+
+dirnumb=$(countdir)
 
 for r in response
 do	
